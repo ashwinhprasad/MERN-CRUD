@@ -1,0 +1,87 @@
+*{
+  margin:0;
+}
+
+body{
+  background-image: url('https://media1.tenor.com/images/552ec189475f1d337391b02d6b0b9965/tenor.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+
+.display-wrapper {
+
+  background-color: rgb(230, 136, 29);
+  margin-left: auto;
+  margin-right:auto;
+  width:50%;
+  padding:2%;
+  margin-top:5%;
+  margin-bottom:15%;
+  
+}
+
+#display-header {
+
+  text-align: center;
+  text-decoration: underline;
+  font-size: 36px;
+  font-family: 'Monoton', cursive;
+
+}
+
+form{
+  margin-left: auto;
+  margin-right:auto;
+  width:30%;
+  margin-top:5%;
+  background-color: rgb(68, 182, 68);
+  padding:10px;
+  box-shadow: rgb(68, 68, 68) 5px 3px;
+}
+
+h1{
+
+  text-align: center;
+  color:white;
+  font-size:60px;
+  background-color: black;
+}
+
+input[type=submit] {
+  margin-left:5px;
+  background-color: rgb(255, 8, 8);
+  padding:10px;
+  border-radius:5px;
+  border:none;
+
+}
+
+input[type=text] {
+  margin-left:25%;
+  width:40%;
+  padding:5px;
+}
+
+button{
+  float :right;
+  padding:7px;
+  background-color: rgb(226, 43, 43);
+  border:none;
+  outline:none;
+  border-radius:7px;
+  margin-bottom:10px;
+}
+
+.item-wrapper{
+  background-color: rgb(248, 248, 248);
+  margin-bottom:10px;
+  padding:10px;
+  border-radius:10px;
+  border:none;
+  box-shadow:rgb(58, 58, 58) 2px 3px;
+  padding-bottom:15px;
+}
